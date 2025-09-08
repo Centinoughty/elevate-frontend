@@ -41,7 +41,7 @@ export default function LoginPage() {
       {status === "authenticated" ? (
         <>
           <p className="mb-4 text-lg">
-            Signed in as <strong>{session.user?.email}</strong>
+            {/* Signed in as <strong>{session.user?.email}</strong> */}
           </p>
 
           {loadingToken ? (

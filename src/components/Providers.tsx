@@ -1,6 +1,8 @@
 "use client";
 
-import { SessionProvider } from "@/components/common/SessionProvider";
+// import { SessionProvider } from "@/components/common/SessionProvider";
+import { SessionProvider } from "next-auth/react";
+
 import { AuthProvider } from "@/components/common/AuthProvider";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
